@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.error-page-style{
+    @apply text-center my-10 text-red-600 font-bold text-7xl
+}
