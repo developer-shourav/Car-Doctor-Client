@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
+body{
+    font-family: 'Inter', sans-serif;
+}
 .error-page-style{
     @apply text-center my-10 text-red-600 font-bold text-7xl
+}
+
+.btn-main{
+    @apply btn btn-primary normal-case bg-[#FF3811] border-2 border-[#FF3811] hover:bg-transparent hover:border-[#FF3811] mr-5 rounded
 }

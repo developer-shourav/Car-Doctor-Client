@@ -20,7 +20,7 @@ const Banner = () => {
            <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
 
            <div>
-           <button className="btn btn-primary normal-case bg-[#FF3811] border-2 border-[#FF3811] hover:bg-transparent hover:border-[#FF3811] mr-5 rounded">Discover More</button>
+           <button className="btn-main">Discover More</button>
            <button className="btn btn-outline btn-transparent rounded border-2 border-stone-400 text-white normal-case">Latest Project</button>
            </div>
          </div>
@@ -47,7 +47,7 @@ const Banner = () => {
            <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
 
            <div>
-           <button className="btn btn-primary normal-case bg-[#FF3811] border-2 border-[#FF3811] hover:bg-transparent hover:border-[#FF3811] mr-5 rounded">Discover More</button>
+           <button className="btn-main">Discover More</button>
            <button className="btn btn-outline btn-transparent rounded border-2 border-stone-400 text-white normal-case">Latest Project</button>
            </div>
          </div>
@@ -72,7 +72,7 @@ const Banner = () => {
            <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
 
            <div>
-           <button className="btn btn-primary normal-case bg-[#FF3811] border-2 border-[#FF3811] hover:bg-transparent hover:border-[#FF3811] mr-5 rounded">Discover More</button>
+           <button className="btn-main">Discover More</button>
            <button className="btn btn-outline btn-transparent rounded border-2 border-stone-400 text-white normal-case">Latest Project</button>
            </div>
          </div>
@@ -98,7 +98,7 @@ const Banner = () => {
            <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
 
            <div>
-           <button className="btn btn-primary normal-case bg-[#FF3811] border-2 border-[#FF3811] hover:bg-transparent hover:border-[#FF3811] mr-5 rounded">Discover More</button>
+           <button className="btn-main">Discover More</button>
            <button className="btn btn-outline btn-transparent rounded border-2 border-stone-400 text-white normal-case">Latest Project</button>
            </div>
          </div>
@@ -125,7 +125,7 @@ const Banner = () => {
            <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
 
            <div>
-           <button className="btn btn-primary normal-case bg-[#FF3811] border-2 border-[#FF3811] hover:bg-transparent hover:border-[#FF3811] mr-5 rounded">Discover More</button>
+           <button className="btn-main">Discover More</button>
            <button className="btn btn-outline btn-transparent rounded border-2 border-stone-400 text-white normal-case">Latest Project</button>
            </div>
          </div>
@@ -152,7 +152,7 @@ const Banner = () => {
            <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
 
            <div>
-           <button className="btn btn-primary normal-case bg-[#FF3811] border-2 border-[#FF3811] hover:bg-transparent hover:border-[#FF3811] mr-5 rounded">Discover More</button>
+           <button className="btn-main">Discover More</button>
            <button className="btn btn-outline btn-transparent rounded border-2 border-stone-400 text-white normal-case">Latest Project</button>
            </div>
          </div>
