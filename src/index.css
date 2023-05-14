@@ -15,3 +15,11 @@ body{
 .btn-main{
     @apply btn btn-primary normal-case bg-[#FF3811] border-2 border-[#FF3811] hover:bg-transparent hover:border-[#FF3811] mr-5 rounded
 }
+
+.text-color-primary{
+    @apply text-[#FF3811]
+}
+
+.bg-color-primary{
+    @apply bg-[#FF3811]
+}

@@ -47,7 +47,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <button className="btn btn-outline normal-case rounded text-orange-500 border-orange-600 hover:bg-orange-400 hover:border-orange-600">Appointment</button>
+        <button className="btn btn-outline normal-case rounded text-[#FF3811] border-[#FF3811] hover:bg-[#FF3811] hover:border-[#FF3811]">Appointment</button>
       </div>
     </div>
   );
