@@ -14,7 +14,7 @@ const Banner = () => {
           className="w-full rounded-xl"
         />
 
-        <div className="absolute h-full flex items-center left-0 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
+        <div className="absolute rounded-xl h-full flex items-center left-0 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
          <div className="text-white space-y-7 pl-12 w-2/4">
            <h2 className="text-6xl font-bold">Affordable Price For Car Servicing</h2>
            <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
@@ -39,9 +39,9 @@ const Banner = () => {
       <div id="slide2" className="carousel-item relative w-full">
         <img
           src={image2}
-          className="w-full"
+          className="w-full rounded-xl"
         />
-         <div className="absolute h-full flex items-center left-0 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
+         <div className="absolute h-full rounded-xl flex items-center left-0 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
          <div className="text-white space-y-7 pl-12 w-2/4">
            <h2 className="text-6xl font-bold">Affordable Price For Car Servicing</h2>
            <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
@@ -64,9 +64,9 @@ const Banner = () => {
       <div id="slide3" className="carousel-item relative w-full">
         <img
           src={image3}
-          className="w-full"
+          className="w-full rounded-xl"
         />
-         <div className="absolute h-full flex items-center left-0 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
+         <div className="absolute rounded-xl h-full flex items-center left-0 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
          <div className="text-white space-y-7 pl-12 w-2/4">
            <h2 className="text-6xl font-bold">Affordable Price For Car Servicing</h2>
            <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
@@ -90,9 +90,9 @@ const Banner = () => {
       <div id="slide4" className="carousel-item relative w-full">
         <img
           src={image4}
-          className="w-full"
+          className="w-full rounded-xl"
         />
-         <div className="absolute h-full flex items-center left-0 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
+         <div className="absolute h-full rounded-xl flex items-center left-0 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
          <div className="text-white space-y-7 pl-12 w-2/4">
            <h2 className="text-6xl font-bold">Affordable Price For Car Servicing</h2>
            <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
@@ -117,9 +117,9 @@ const Banner = () => {
       <div id="slide5" className="carousel-item relative w-full">
         <img
           src={image5}
-          className="w-full"
+          className="w-full rounded-xl"
         />
-         <div className="absolute h-full flex items-center left-0 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
+         <div className="absolute h-full rounded-xl flex items-center left-0 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
          <div className="text-white space-y-7 pl-12 w-2/4">
            <h2 className="text-6xl font-bold">Affordable Price For Car Servicing</h2>
            <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
@@ -144,9 +144,9 @@ const Banner = () => {
       <div id="slide6" className="carousel-item relative w-full">
         <img
           src={image6}
-          className="w-full"
+          className="w-full rounded-xl"
         />
-         <div className="absolute h-full flex items-center left-0 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
+         <div className="absolute rounded-xl h-full flex items-center left-0 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
          <div className="text-white space-y-7 pl-12 w-2/4">
            <h2 className="text-6xl font-bold">Affordable Price For Car Servicing</h2>
            <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
