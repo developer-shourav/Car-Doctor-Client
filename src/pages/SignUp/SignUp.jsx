@@ -6,9 +6,10 @@ const SignUp = () => {
   const handleSignUp =  event => {
     event.preventDefault()
     const form = event.target;
+    const name = form.name.value;
     const email = form.email.value;
     const password = form.password.value;
-    console.log({email, password});
+    console.log({name, email, password});
   }
   return (
     <div className="hero min-h-screen bg-base-200">
@@ -20,6 +21,18 @@ const SignUp = () => {
           <div className="card-body">
             <form onSubmit={handleSignUp}>
               <h1 className="text-3xl font-bold text-center">Sign Up</h1>
+              <div className="form-control">
+                <label className="label">
+                  <span className="label-text">Name</span>
+                </label>
+                <input
+                  type="text"
+                  placeholder="Your Name"
+                  className="input input-bordered"
+                  name='name'
+                  required
+                />
+              </div>
               <div className="form-control">
                 <label className="label">
                   <span className="label-text">Email</span>
@@ -34,7 +47,7 @@ const SignUp = () => {
               </div>
               <div className="form-control">
                 <label className="label">
-                  <span className="label-text">Password</span>
+                  <span className="label-text">Confirm Password</span>
                 </label>
                 <input
                   type="password"
