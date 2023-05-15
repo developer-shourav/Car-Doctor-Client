@@ -1,16 +1,42 @@
-import React from "react";
+import React, { useContext } from "react";
 import loginImg from "../../assets/images/login/login.svg";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../providers/AuthProviders";
+import { updateProfile } from "firebase/auth";
 
 const SignUp = () => {
+  const {createUser} = useContext(AuthContext);
   const handleSignUp =  event => {
     event.preventDefault()
     const form = event.target;
     const name = form.name.value;
     const email = form.email.value;
     const password = form.password.value;
-    console.log({name, email, password});
+    const photo = "https://media.licdn.com/dms/image/C4E03AQGTYvY1e7x3UA/profile-displayphoto-shrink_800_800/0/1638112904151?e=2147483647&v=beta&t=v9Hf-uGwvnl-wcxp2eyRcLFb7en1d6S9I3AEcuCDTv8";
+    createUser(email, password)
+    .then( result => {
+      const user = result.user;
+      console.log(user);
+      addUserNameAndImage(user, name, photo)
+    })
+    .catch( error => {
+      console.log(error.message);
+    })
+
   }
+
+
+  const addUserNameAndImage = (user, name, photo) => {
+    updateProfile(user, {displayName:name, photoURL:photo})
+    .then( result => {
+      console.log('name photo update successful', result);
+    })
+    .catch( error => {
+      console.log(error.message);
+    })
+  }
+
+
   return (
     <div className="hero min-h-screen bg-base-200">
       <div className="hero-content  flex-col lg:flex-row">
