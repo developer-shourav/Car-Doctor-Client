@@ -4,6 +4,7 @@ import Main from "../Layout/Main";
 import Home from "../pages/Home/Home/Home";
 import Login from "../pages/Login/Login";
 import SignUp from "../pages/SignUp/SignUp";
+import Error404 from "../pages/Error404/Error404";
 
 const router = createBrowserRouter([
     {
@@ -31,7 +32,7 @@ const router = createBrowserRouter([
    
     {
       path:'*',
-      element: <h4 className='error-page-style'>404</h4>
+      element: <Error404> </Error404>
     }
   ]);
 
